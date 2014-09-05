@@ -1,6 +1,9 @@
 {
   "name": "webaudio-buffer-loader",
   "version": "1.0.0",
+  "keywords": [
+    "webaudio", "web audio api"
+  ],
   "description": "Loads buffers using the webaudio api",
   "main": "index.js",
   "scripts": {
@@ -8,5 +11,11 @@
   },
   "author": "Jamison Dance <jergason@gmail.com> (http://jamisondance.com)",
   "license": "MIT",
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jergason/webaudio-buffer-loader.git"
+  },
+  "dependencies": {
+    "async": "0.9.0"
+  }
 }
