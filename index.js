@@ -1,7 +1,6 @@
 var async = require('async');
 
 function loadBuffers(paths, context, cb) {
-  console.log('loading paths', paths);
   if (Array.isArray(paths)) {
     async.map(paths, loadBuffer(context), cb);
   }
@@ -12,7 +11,6 @@ function loadBuffers(paths, context, cb) {
 
 function loadBuffer(context) {
   return function loadBufferWorker(path, cb) {
-    console.log('path is', path);
     var request = new XMLHttpRequest();
     request.open('GET', path, true);
     request.responseType = 'arraybuffer';
