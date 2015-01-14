@@ -1,4 +1,5 @@
-var async = require('async');
+var async = require('async'),
+    XMLHttpRequest = require('xhr2').XMLHttpRequest;
 
 function loadBuffers(paths, context, cb) {
   if (Array.isArray(paths)) {
