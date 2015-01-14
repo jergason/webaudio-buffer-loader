@@ -17,6 +17,7 @@
     "url": "https://github.com/jergason/webaudio-buffer-loader.git"
   },
   "dependencies": {
-    "async": "0.9.0"
+    "async": "^0.9.0",
+    "xhr2": "^0.1.1"
   }
 }
